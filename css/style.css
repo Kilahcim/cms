@@ -1,0 +1,213 @@
+body {
+  background: rgba(216,176,232,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(216,176,232,1) 0%, rgba(34,0,46,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(216,176,232,1)), color-stop(100%, rgba(34,0,46,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(216,176,232,1) 0%, rgba(34,0,46,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(216,176,232,1) 0%, rgba(34,0,46,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(216,176,232,1) 0%, rgba(34,0,46,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(216,176,232,1) 0%, rgba(34,0,46,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8b0e8', endColorstr='#22002e', GradientType=1 );
+  /* display: flex; */
+  /* align-items: center; */
+}
+* {
+  font-weight: 300;
+  font-family: 'Abril Fatface', sans-serif;
+}
+
+.form_box {
+  background-color: rgba(22, 7, 22, 0.23);
+}
+.login_form button {
+  float: right;
+}
+
+.form_box p{
+  color: #fff;
+  font-weight: 900;
+  font-family: 'Abril Fatface', sans-serif;
+
+}
+form {
+  padding: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 0 20px 20px 0px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+
+button {
+  padding: 10px;
+  background: #febe16;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+/* SECOND FORM*/
+.user_panel {
+  margin-top: 5%;
+}
+
+.form_box {
+  margin-top: 20px;
+}
+.home .form_box {
+  margin-top: 100px;
+}
+.registry_form label, .edit label {
+  width: 100%;
+}
+.registry_form input, .edit input {
+  width: 100%;
+}
+.select_art table tr {
+  border-bottom: 1px solid white;
+}
+
+.select_art button {
+  margin-top: 10px;
+}
+.select_art input[type="checkbox"] {
+  margin: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+/*  NAVBAR */
+img[alt*='logo'] {
+  width: 50px;
+  height: 50px;
+}
+/*  TEXT AREA Z DODAJ ARTYKUŁ */
+.article textarea {
+  width: 100%;
+  resize: none;
+}
+/* TUTAJ ZACZYNA SIĘ INNA SEKCJA XD */
+
+
+.choice {
+  margin-top: 50px;
+}
+.choice button {
+  width: 100%;
+}
+.choice textarea {
+  width: 100%;
+  height: 25%;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+.unvisible {
+  display: none;
+}
+.visible {
+  display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 70px;
+  background-color: #fafafa;
+  width: 100%;
+  line-height: 70px;
+
+}
+.slider{
+  height: auto;
+}
+.slider p {
+  font-size: 20px;
+}
+.tytul {
+  text-align: center;
+  color: rgb(254, 190, 22);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.color {
+  color: rgb(254, 190, 22);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.slick-slide {
+  margin: 0 20px 0 20px;
+}
+/* HOME ARTYKUŁY POKAZYWANIE */
+.slider .form_box {
+  max-height:  300px;
+  overflow: hidden;
+}
+/* ARTYKUŁY DODAWANIE*/
+.article button{
+  margin-top: 20px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+/* .flex_modal {
+  height: 200px;
+  width: 300px;
+}
+.flex_modal .form_box {
+  width: 100%;
+  height: 100%;
+} */
+/*  ADMIN LOGOWANIE*/
+.flex {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Tabelka w panelu administracyjnym */
+td {
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+.user_delete input[type*="submit"] {
+  /* margin-top: 20px; */
+  margin: 10px auto;
+}
+input[type=checkbox] {
+  margin-bottom: 20px;
+}
+input[readonly=true] {
+  background-color: #ebebeb;
+  color: black;
+}
+/* FORM_BOX */
+.edit_art .form_box {
+  padding: 15px;
+}
+.edit_art .form_box input {
+  display: block;
+  width: 100%;
+  /* padding: 20px; */
+}
+.edit_art .form_box textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 150px;
+  overflow-y: scroll;
+  resize: none;
+}
+.edit_art .form_box button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
